@@ -32,7 +32,19 @@ I also encourage you to use comments (`#`) to help you identify each item (I pro
 7. Return to the **Day 1** `README` file to finish the process of committing and pushing to GitHub.
 
 ```{r simple-calculations}
-# Item 1
+# Item 1: Addition of two values
+2 + 5
+
+# Item 2: Creating a numerical vector
+int_vect <- 1:9
+
+# Item 3: Creating a vector from letters
+char_vect <- LETTERS[1:17]
+
+# Item 4: Finding out how many letters come after the letter "D"
+letters_after_D <- which(char_vect > "D")
+num_of_items <- length(letters_after_D)
+print(num_of_items)
 
 ```
 
